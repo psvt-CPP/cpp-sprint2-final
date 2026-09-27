@@ -1,0 +1,16 @@
+# Игнорируем папки сборки
+build/
+cmake-build-*/
+Debug/
+Release/
+
+# Игнорируем настройки Qt Creator
+.qtcreator/
+
+# Игнорируем архивы и временные файлы
+*.zip
+*.tar.gz
+
+# Игнорируем файлы ОС (на всякий случай)
+.DS_Store
+Thumbs.db 
